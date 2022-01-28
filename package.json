@@ -1,0 +1,33 @@
+{
+    "name": "express_mongo",
+    "version": "1.0.0",
+    "description": "Hello world app with express server connecting to a mongo db server",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gsc2001/Express_Mongo.git"
+    },
+    "keywords": [
+        "nodejs",
+        "express",
+        "mongodb"
+    ],
+    "author": "gsc2001",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gsc2001/Express_Mongo/issues"
+    },
+    "homepage": "https://github.com/gsc2001/Express_Mongo#readme",
+    "dependencies": {
+        "dotenv": "^14.3.2",
+        "express": "^4.17.2",
+        "mongoose": "^6.1.8"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
